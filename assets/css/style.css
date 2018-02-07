@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body {
+  background-color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+  background-color: #f9f9f9;
+}
+
+.prenumerata {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .prenumerata {
+    margin-top: 1em;
+    font-size: 42px;
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .prenumerata {
+    margin-top: 1em;
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+}

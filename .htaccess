@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^views/(.+) /metasite_uzduotis/index.php [L,R]
+RewriteRule ^database/(.+) /metasite_uzduotis/index.php [L,R]
+RewriteRule ^classes/(.+) /metasite_uzduotis/index.php [L,R]

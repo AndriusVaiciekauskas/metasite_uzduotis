@@ -1,0 +1,13 @@
+{
+    "name": "lenovo/metasite_uzduotis",
+    "authors": [
+        {
+            "name": "AndriusVaiciekauskas",
+            "email": "a.vaiciekauskas@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"": "classes/"}
+    }
+}

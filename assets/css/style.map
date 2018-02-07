@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css?family=Ubuntu');\r\n\r\nbody {\r\n\tbackground-color: #fff;\r\n\tfont-family: 'Ubuntu', sans-serif;\r\n};\r\n\r\n.card {\r\n\tbackground-color: #f9f9f9;\r\n}\r\n\r\n.prenumerata {\r\n\ttext-transform: uppercase;\r\n\tletter-spacing: 6px;\r\n\tfont-size: 60px;\r\n}\r\n\r\n\r\n@media screen and (max-width: 768px) {\r\n  .prenumerata {\r\n  \tmargin-top: 1em;\r\n    font-size: 42px;\r\n    letter-spacing: 0px;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 335px) {\r\n  .prenumerata {\r\n    margin-top: 1em;\r\n    font-size: 30px;\r\n    letter-spacing: 0px;\r\n  }\r\n}"
+	],
+	"mappings": "AAAA,OAAO,CAAC,qDAAI;;AAEZ,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,IAAK;EACvB,WAAW,EAAE,oBAAqB;CAClC;;;AAED,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,OAAQ;CAC1B;;;AAED,AAAA,YAAY,CAAC;EACZ,cAAc,EAAE,SAAU;EAC1B,cAAc,EAAE,GAAI;EACpB,SAAS,EAAE,IAAK;CAChB;;AAGD,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC1B,AAAA,YAAY,CAAC;IACZ,UAAU,EAAE,GAAI;IACf,SAAS,EAAE,IAAK;IAChB,cAAc,EAAE,GAAI;GACrB;;;AAGH,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC1B,AAAA,YAAY,CAAC;IACX,UAAU,EAAE,GAAI;IAChB,SAAS,EAAE,IAAK;IAChB,cAAc,EAAE,GAAI;GACrB",
+	"names": []
+}
