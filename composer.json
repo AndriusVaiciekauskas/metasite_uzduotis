@@ -8,6 +8,9 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": {"": "classes/"}
+        "psr-4": {"Classes\\": "classes/"}
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
     }
 }
